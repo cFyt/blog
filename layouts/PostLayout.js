@@ -92,7 +92,7 @@ export default function PostLayout({ frontMatter, authorDetails, next, prev, chi
                   {'Twitter\'da tartış'}
                 </Link>
                 {` • `}
-                <Link href={editUrl(fileName)}>{'Github'da gör'}</Link>
+                <Link href={editUrl(fileName)}>{'Github\'da gör'}</Link>
               </div>
               <Comments frontMatter={frontMatter} />
             </div>
