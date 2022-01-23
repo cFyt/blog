@@ -1,6 +1,6 @@
 ---
 name: Muharrem DURSUN
-avatar: /static/images/avatar.png
+avatar: https://cfyt.me/favicon.png
 occupation: Full stack web developer
 company: Connify
 email: mail@cfyt.me
