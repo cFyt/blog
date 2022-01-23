@@ -47,7 +47,7 @@ const NewsletterForm = ({ title = 'Bültene abone ol' }) => {
             className="px-4 rounded-md w-72 dark:bg-black focus:outline-none focus:ring-2 focus:border-transparent focus:ring-primary-600"
             id="email-input"
             name="email"
-            placeholder={subscribed ? "Abone oldunuz! 🎉" : 'E-Posta adresinizi girin'}
+            placeholder={subscribed ? 'Abone oldunuz! 🎉' : 'E-Posta adresinizi girin'}
             ref={inputEl}
             required
             type="email"
