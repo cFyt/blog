@@ -1,6 +1,6 @@
 ---
 title: Başlıyoruz!
-date: '23-01-2022'
+date: '2022-01-23'
 tags: ['ilk']
 draft: false
 summary: Bloglara başlıyoruz! Takipte kal.
