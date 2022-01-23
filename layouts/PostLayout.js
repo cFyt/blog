@@ -89,7 +89,7 @@ export default function PostLayout({ frontMatter, authorDetails, next, prev, chi
               <div className="pt-10 pb-8 prose dark:prose-dark max-w-none">{children}</div>
               <div className="pt-6 pb-6 text-sm text-gray-700 dark:text-gray-300">
                 <Link href={discussUrl(slug)} rel="nofollow">
-                  {'Twitter'da tartış'}
+                  {'Twitter\'da tartış'}
                 </Link>
                 {` • `}
                 <Link href={editUrl(fileName)}>{'Github'da gör'}</Link>
