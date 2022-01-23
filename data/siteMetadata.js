@@ -7,8 +7,8 @@ const siteMetadata = {
   theme: 'system', // system, dark or light
   siteUrl: 'https://blog.cfyt.me',
   siteRepo: 'https://github.com/cFyt/blog',
-  siteLogo: '/static/images/logo.png',
-  image: '/static/images/avatar.png',
+  siteLogo: 'https://cfyt.me/logo.pmg',
+  image: 'https://cfyt.me/favicon.png',
   socialBanner: '/static/images/twitter-card.png',
   email: 'mail@cfyt.me',
   github: 'https://github.com/cFyt',
