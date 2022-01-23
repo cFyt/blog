@@ -1,16 +1,14 @@
 ---
-name: Tails Azimuth
+name: Muharrem DURSUN
 avatar: /static/images/avatar.png
-occupation: Professor of Atmospheric Science
-company: Stanford University
-email: address@yoursite.com
-twitter: https://twitter.com/Twitter
+occupation: Full stack web developer
+company: none
+email: mail@cfyt.me
+twitter: https://twitter.com/cFytavi
 linkedin: https://www.linkedin.com
-github: https://github.com
+github: https://github.com/cFyt
 ---
 
-Tails Azimuth is a professor of atmospheric sciences at the Stanford AI Lab. His research interests includes complexity modelling of tailwinds, headwinds and crosswinds.
+Eskişehir doğumlu 18 yaşında lise öğrencisi. Web geliştiriciliği, videografi, fotoğrafçılık ve havacılık üzerine ilgileniyor ve proje geliştiriyor.
 
-He leads the clean energy group which develops 3D air pollution-climate models, writes differential equation solvers, and manufactures titanium plated air ballons. In his free time he bakes raspberry pi.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+Connify.net kurucularından
