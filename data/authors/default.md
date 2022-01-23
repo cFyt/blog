@@ -2,7 +2,7 @@
 name: Muharrem DURSUN
 avatar: /static/images/avatar.png
 occupation: Full stack web developer
-company: none
+company: Connify
 email: mail@cfyt.me
 twitter: https://twitter.com/cFytavi
 linkedin: https://www.linkedin.com
