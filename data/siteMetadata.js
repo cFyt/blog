@@ -2,7 +2,7 @@ const siteMetadata = {
   title: 'cFyt Blog',
   author: 'cFyt',
   headerTitle: 'cFyt',
-  description: 'Yazılım, video ve fotoğrafçılık hakkındaki blog sayfam.',
+  description: 'Yazılım, video ve fotoğrafçılık hakkında her şey.',
   language: 'tr-tr',
   theme: 'system', // system, dark or light
   siteUrl: 'https://blog.cfyt.me',
