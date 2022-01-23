@@ -69,7 +69,7 @@ export default function Home({ posts }) {
                           className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
                           aria-label={`Oku "${title}"`}
                         >
-                          Daha fazla &rarr;
+                          Devamını oku &rarr;
                         </Link>
                       </div>
                     </div>
