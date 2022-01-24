@@ -9,9 +9,9 @@ const CommonSEO = ({ title, description, ogType, ogImage, twImage }) => {
     <Head>
       <title>{title}</title>
       <meta
-       httpEquiv="Content-Security-Policy"
-       content="default-src * self blob: data: gap:; style-src * self 'unsafe-inline' blob: data: gap:; script-src * 'self' 'unsafe-eval' 'unsafe-inline' blob: data: gap:; object-src * 'self' blob: data: gap:; img-src * self 'unsafe-inline' blob: data: gap:; connect-src self * 'unsafe-inline' blob: data: gap:; frame-src * self blob: data: gap:;"
-/>
+        httpEquiv="Content-Security-Policy"
+        content="default-src * self blob: data: gap:; style-src * self 'unsafe-inline' blob: data: gap:; script-src * 'self' 'unsafe-eval' 'unsafe-inline' blob: data: gap:; object-src * 'self' blob: data: gap:; img-src * self 'unsafe-inline' blob: data: gap:; connect-src self * 'unsafe-inline' blob: data: gap:; frame-src * self blob: data: gap:;"
+      />
       <meta name="robots" content="follow, index" />
       <meta name="description" content={description} />
       <meta property="og:url" content={`${siteMetadata.siteUrl}${router.asPath}`} />
@@ -154,11 +154,7 @@ export const BlogSEO = ({ authorDetails, title, summary, date, lastmod, url, ima
   )
 }
 
-```
 
-**Output:**
-<!-- prettier-ignore -->
-```jsx
 import Head from "next/head";
 import { useRouter } from "next/router";
 import siteMetadata from "@/data/siteMetadata";
