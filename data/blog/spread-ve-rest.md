@@ -1,5 +1,5 @@
 ---
-title: JavaScript'de Spread ve Rext
+title: JavaScript'de Spread ve Rest
 date: '2022-01-24'
 tags: ['javascript', 'js']
 draft: false
@@ -26,7 +26,7 @@ console.log(sum(numbers[0], numbers[1], numbers[2]))
 ```
 
 Örnekte sayıları toplamak için bir fonksiyon ve çalışması için 3 tane değerimiz var.
-numbers dizisindeki değerleri toplamak istediğimde bu verileri tek tek yazmak yerine spread ifadesini kullanarak sayılarıı yayabiliriz.
+numbers dizisindeki değerleri toplamak istediğimde bu verileri tek tek yazmak yerine spread ifadesini kullanarak sayıları yayabiliriz.
 
 ## Function kullanımı
 
