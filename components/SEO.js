@@ -1,4 +1,3 @@
-
 import Head from 'next/head'
 import { useRouter } from 'next/router'
 import siteMetadata from '@/data/siteMetadata'
@@ -8,10 +7,6 @@ const CommonSEO = ({ title, description, ogType, ogImage, twImage }) => {
   return (
     <Head>
       <title>{title}</title>
-      <meta
-        httpEquiv="Content-Security-Policy"
-        content="default-src * self blob: data: gap:; style-src * self 'unsafe-inline' blob: data: gap:; script-src * 'self' 'unsafe-eval' 'unsafe-inline' blob: data: gap:; object-src * 'self' blob: data: gap:; img-src * self 'unsafe-inline' blob: data: gap:; connect-src self * 'unsafe-inline' blob: data: gap:; frame-src * self blob: data: gap:;"
-      />
       <meta name="robots" content="follow, index" />
       <meta name="description" content={description} />
       <meta property="og:url" content={`${siteMetadata.siteUrl}${router.asPath}`} />
@@ -153,31 +148,3 @@ export const BlogSEO = ({ authorDetails, title, summary, date, lastmod, url, ima
     </>
   )
 }
-
-
-
-        ogType="article"
-        ogImage={featuredImages}
-        twImage={twImageUrl}
-      />
-      <Head>
-        {date && (
-          <meta property="article:published_time" content={publishedAt} />
-        )}
-        {lastmod && (
-          <meta property="article:modified_time" content={modifiedAt} />
-        )}
-        <link
-          rel="canonical"
-          href={`${siteMetadata.siteUrl}${router.asPath}`}
-        />
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify(structuredData, null, 2),
-          }}
-        />
-      </Head>
-    </>
-  );
-};
