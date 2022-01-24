@@ -68,7 +68,7 @@ const siteMetadata = {
     },
     disqusConfig: {
       // https://help.disqus.com/en/articles/1717111-what-s-a-shortname
-      shortname: process.env.DISQUS_SHORTNAME,
+      shortname: "cfytblog",
     },
   },
 }
