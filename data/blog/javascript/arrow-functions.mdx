@@ -2,7 +2,7 @@
 title: Arrow Functions
 date: '2022-01-24'
 tags: ['javascript', 'js']
-draft: true
+draft: false
 summary: JavaScript'de arrow functions nedir ne işe yarar?
 ---
 
@@ -22,4 +22,43 @@ const greetings2 = () => "Hello world";
 ```
 
 Bu örneğimizde iki `greetings` adında bir fonksiyon oluşturduk. Bu fonksiyon bize "Hello world" değerini döndürüyor. Aynı fonksiyonu arrow function olarak yazmak istediğimde bir return ifadesi kullanmadık.
+Bu ifadelerin en önde gelen özelliğinden biridir. Genelde tek satırlık bir return işlemi yapılacağı zaman daha çok kullanılırlar.
 
+```javascript
+ materials = [
+  'Hydrogen',
+  'Helium',
+  'Lithium',
+  'Beryllium'
+];
+
+console.log(materials.map(material => material.length));
+// [8, 6, 7, 9]
+```
+
+Bu örneğimiz de en çok kullanılan yerlerden birisi.
+
+```javascript
+
+let fnc = (a,b) => a + b;
+let fnc2 = a => return a + 100
+
+```
+
+Yukarıdaki örnekte gördüğümüz gibi eğer fonsiyon içerisinde kullanacağımız değer bir tane ise paramtez içine almamıza gerek yok.
+
+```javascript
+
+let fnc = data => ({ value:data })
+
+```
+
+Bir obje döndürmek istediğimiz zaman ise bunu parantez içine alarak tek satırda return yapabiliriz.
+
+
+Arrow functions örneklerde gösterdiğim gibi basit metotlar için kullanılmalıdır. Class yapısı için uygun değildir.
+class'larda kullanığımız `this, super, bind, apply, call` yapısını desteklemez.
+Ayrıca `new, prototype' gibi yapıları da desteklemez.
+Tek satırda return yapmak istediğimizde satır atlamayı desteklemez.
+
+Sonuç olarak arrow functions basit methodlar için kullanıldığı zaman yararlıdır.
